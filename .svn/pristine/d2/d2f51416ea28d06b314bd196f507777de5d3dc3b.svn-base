@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
+using Resenha.Util;
+namespace Resenha.Model
+{
+    public class ReturnJson
+    {
+
+        public ReturnJson()
+        {
+            returnJson = new List<object>();
+            statusProcess = Enumerator.StatusProcess.Success;
+        }
+        [NotMapped]
+        public Enumerator.StatusProcess statusProcess { get; set; }
+
+        [NotMapped]
+        public string message { get; set; }
+
+        [NotMapped]
+        public string token { get; set; }
+
+        [NotMapped]
+        public DateTime dtStartToken { get; set; }
+
+        [NotMapped]
+        public DateTime dtExpirationToken { get; set; }
+
+        [NotMapped]
+        public List<object> returnJson { get; set; }
+
+    }
+}

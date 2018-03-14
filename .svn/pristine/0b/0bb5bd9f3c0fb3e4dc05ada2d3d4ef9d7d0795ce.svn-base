@@ -1,0 +1,23 @@
+﻿{
+  "Logging": {
+    "IncludeScopes": false,
+    "Debug": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  },
+  "ConnectionStrings": {
+    "ConexaoDbCadastro": "Server=THIAGO-PC\\SQL;DataBase=DbCadastro;MultipleActiveResultSets=true;Integrated Security = True; User ID=user_cadastro;Password=()s3R_c@D@sTr0;"
+  },
+  "ConfiguracaoToken": {
+    "Audience": "R3s3nh@_@@()d13nc3",
+    "Issuer": "R3s3nh@@@PP",
+    "Hours": 4
+  }
+}

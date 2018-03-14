@@ -1,0 +1,5 @@
+use DbCadastro
+go
+
+select * from tbl_Origin_Access with(nolock)
+go
